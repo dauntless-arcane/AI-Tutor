@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
-import { 
-  Menu, 
-  X, 
-  Calculator, 
-  Atom, 
-  Dna, 
-  Zap, 
-  Code, 
-  BookOpen,
-  Star,
+import {
+  Atom,
+  Calculator,
+  ChevronRight,
   Clock,
-  ChevronRight
+  Code,
+  Dna,
+  Menu,
+  Star,
+  X,
+  Zap
 } from 'lucide-react';
+import React, { useState } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 
 interface SidebarProps {

@@ -1,5 +1,5 @@
+import { Camera, Paperclip, Pi, Send, Sigma, SquareRadicalIcon } from 'lucide-react';
 import React, { useState } from 'react';
-import { Send, Camera, Sigma, Pi, Square as SquareRoot, Paperclip } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 interface InputPanelProps {
@@ -40,7 +40,7 @@ const InputPanel: React.FC<InputPanelProps> = ({ onSendMessage, isLoading }) => 
   };
 
   const mathSymbols = [
-    { symbol: '√', label: 'Square root', icon: SquareRoot },
+    { symbol: '√', label: 'Square root', icon: SquareRadicalIcon },
     { symbol: '∫', label: 'Integral' },
     { symbol: 'π', label: 'Pi', icon: Pi },
     { symbol: '^', label: 'Power' },
